@@ -11,39 +11,12 @@
 	"contentFolders": ["content"],
 	"options": [
 		{
-			"name": "Default",
-			"tooltip": "Default color scheme using bright green, yellow, and red.",
-			"image": "colour_schemes\\main\\default_colours.png",
-			"type": "select",
-			"group": "Main",
-			"enabledByDefault": true,
-			"contentFolders": ["colour_schemes\\main\\default_colours"]
-		},
-		{
-			"name": "RGB",
-			"tooltip": "RGB color scheme using full red, green, blue, and yellow.",
-			"image": "colour_schemes\\main\\rgb.png",
-			"type": "select",
-			"group": "Main",
-			"enabledByDefault": false,
-			"contentFolders": ["colour_schemes\\main\\rgb"]
-		},
-		{
-			"name": "GBR",
-			"tooltip": "Green, Blue, and Red color scheme using HWOA's green, blue, red, and yellow.",
-			"image": "colour_schemes\\main\\rgb_gbr.png",
-			"type": "select",
-			"group": "Main",
-			"enabledByDefault": false,
-			"contentFolders": ["colour_schemes\\main\\rgb_gbr"]
-		},
-		{
 			"name": "WOA",
 			"tooltip": "World of Assassination color scheme using HWOA's green, yellow, and red.",
 			"image": "colour_schemes\\main\\hwoa_default.png",
 			"type": "select",
 			"group": "Main",
-			"enabledByDefault": false,
+			"enabledByDefault": true,
 			"contentFolders": ["colour_schemes\\main\\hwoa_default"]
 		},
 		{
@@ -182,39 +155,12 @@
 			"contentFolders": ["colour_schemes\\main\\bloody_legacy_reversed"]
 		},
 		{
-			"name": "Paladins",
-			"tooltip": "Paladins health bar color scheme using Blue for full and medium, red-orange for low, and a slight off-yellow for infected.",
-			"image": "colour_schemes\\main\\paladins.png",
-			"type": "select",
-			"group": "Main",
-			"enabledByDefault": false,
-			"contentFolders": ["colour_schemes\\main\\paladins"]
-		},
-		{
-			"name": "Default",
-			"tooltip": "Default color scheme using a grey background, black borders,and white text.",
-			"image": "colour_schemes\\secondary\\default_colours.png",
-			"type": "select",
-			"group": "Secondary",
-			"enabledByDefault": true,
-			"contentFolders": ["colour_schemes\\secondary\\default_colours"]
-		},
-		{
-			"name": "Bright",
-			"tooltip": "Bright color scheme using an almost full white background.",
-			"image": "colour_schemes\\secondary\\bright.png",
-			"type": "select",
-			"group": "Secondary",
-			"enabledByDefault": false,
-			"contentFolders": ["colour_schemes\\secondary\\bright"]
-		},
-		{
 			"name": "WOA Darker",
 			"tooltip": "World of Assassination color scheme to match the darker grey sections of the map.",
 			"image": "colour_schemes\\secondary\\hwoa_darker.png",
 			"type": "select",
 			"group": "Secondary",
-			"enabledByDefault": false,
+			"enabledByDefault": true,
 			"contentFolders": ["colour_schemes\\secondary\\hwoa_darker"]
 		},
 		{
@@ -441,15 +387,6 @@
 			"group": "Secondary",
 			"enabledByDefault": false,
 			"contentFolders": ["colour_schemes\\secondary\\black_slightly_darker"]
-		},
-		{
-			"name": "RGBY",
-			"tooltip": "RGB Why? color scheme using HWOA's red, green, blue, and yellow.",
-			"image": "colour_schemes\\secondary\\rgb_y.png",
-			"type": "select",
-			"group": "Secondary",
-			"enabledByDefault": false,
-			"contentFolders": ["colour_schemes\\secondary\\rgb_y"]
 		}
 	],
 	"frameworkVersion": "2.33.7",
