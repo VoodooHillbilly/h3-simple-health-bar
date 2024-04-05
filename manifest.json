@@ -4,12 +4,15 @@
 	"id": "Notex.SimpleHealthBar",
 	"name": "Simple Health Bar",
 	"description": "Adds a simple health bar to the left of the minimap.",
-	"authors": ["Notex"],
+	"authors": [
+		"Notex",
+		"Voodoo Hillbilly"
+		],
 	"contentFolders": ["content"],
 	"options": [
 		{
 			"name": "Default",
-			"tooltip": "Default colour scheme.",
+			"tooltip": "Default color scheme using bright green, yellow, and red.",
 			"image": "colour_schemes\\main\\default_colours.png",
 			"type": "select",
 			"group": "Main",
@@ -18,7 +21,7 @@
 		},
 		{
 			"name": "RGB",
-			"tooltip": "RGB colour scheme.",
+			"tooltip": "RGB color scheme using full red, green, blue, and yellow.",
 			"image": "colour_schemes\\main\\rgb.png",
 			"type": "select",
 			"group": "Main",
@@ -27,7 +30,7 @@
 		},
 		{
 			"name": "GBR",
-			"tooltip": "Green, Blue, and Red colour scheme using H:WOA's own green, blue, red, and yellow.",
+			"tooltip": "Green, Blue, and Red color scheme using HWOA's green, blue, red, and yellow.",
 			"image": "colour_schemes\\main\\rgb_gbr.png",
 			"type": "select",
 			"group": "Main",
@@ -36,7 +39,7 @@
 		},
 		{
 			"name": "WOA",
-			"tooltip": "Hitman: World of Assassination colour scheme using the game's own green, yellow, and red.",
+			"tooltip": "World of Assassination color scheme using HWOA's green, yellow, and red.",
 			"image": "colour_schemes\\main\\hwoa_default.png",
 			"type": "select",
 			"group": "Main",
@@ -44,8 +47,8 @@
 			"contentFolders": ["colour_schemes\\main\\hwoa_default"]
 		},
 		{
-			"name": "WOA Sick",
-			"tooltip": "Hitman: World of Assassination colour scheme using the game's own green, yellow, and red for the health bar. Infected is a more sickly shade of yellow-green.",
+			"name": "WOAː Sick",
+			"tooltip": "World of Assassination color scheme using the HWOA's green, yellow, and red for the health bar. Infected is a more sickly shade of yellow-green.",
 			"image": "colour_schemes\\main\\hwoa_sick.png",
 			"type": "select",
 			"group": "Main",
@@ -54,7 +57,7 @@
 		},
 		{
 			"name": "WOA Dark",
-			"tooltip": "Hitman: World of Assassination colour scheme using a darker red and green to match Heritage UI.",
+			"tooltip": "World of Assassination color scheme using a darker green and red to coordinate with Heritage UI.",
 			"image": "colour_schemes\\main\\hwoa_dark.png",
 			"type": "select",
 			"group": "Main",
@@ -62,8 +65,8 @@
 			"contentFolders": ["colour_schemes\\main\\hwoa_dark"]
 		},
 		{
-			"name": "WOA Dark and Sick",
-			"tooltip": "Hitman: World of Assassination colour scheme using a darker red and green to match Heritage UI. Infected is a more sickly shade of yellow-green.",
+			"name": "WOA Darkː Sick",
+			"tooltip": "World of Assassination color scheme using a darker green and red to coordinate with Heritage UI. Infected is a more sickly shade of yellow-green.",
 			"image": "colour_schemes\\main\\hwoa_dark_sick.png",
 			"type": "select",
 			"group": "Main",
@@ -72,7 +75,7 @@
 		},
 		{
 			"name": "2016",
-			"tooltip": "Hitman (2016) colour scheme using the original green, yellow, and red.",
+			"tooltip": "Hitman (2016) color scheme using 2016's green, yellow, and red.",
 			"image": "colour_schemes\\main\\h2016_default.png",
 			"type": "select",
 			"group": "Main",
@@ -80,8 +83,8 @@
 			"contentFolders": ["colour_schemes\\main\\h2016_default"]
 		},
 		{
-			"name": "2016 Sick",
-			"tooltip": "Hitman (2016) colour scheme using the original green, yellow, and red. Infected is a more sickly shade of yellow-green.",
+			"name": "2016ː Sick",
+			"tooltip": "Hitman (2016) color scheme using 2016's green, yellow, and red for the health bar. Infected is a more sickly shade of yellow-green.",
 			"image": "colour_schemes\\main\\h2016_sick.png",
 			"type": "select",
 			"group": "Main",
@@ -90,7 +93,7 @@
 		},
 		{
 			"name": "2016 Red",
-			"tooltip": "Hitman (2016) colour scheme using its orginal red for all three health conditions.",
+			"tooltip": "Hitman (2016) color scheme using 2016's red for all three health conditions.",
 			"image": "colour_schemes\\main\\h2016_red.png",
 			"type": "select",
 			"group": "Main",
@@ -98,8 +101,8 @@
 			"contentFolders": ["colour_schemes\\main\\h2016_red"]
 		},
 		{
-			"name": "2016 Red and Sick",
-			"tooltip": "Hitman (2016) colour scheme using its orginal red for all three health conditions. Infected is a more sickly shade of yellow-green.",
+			"name": "2016 Redː Sick",
+			"tooltip": "Hitman (2016) color scheme using 2016's red for all three health conditions. Infected is a more sickly shade of yellow-green.",
 			"image": "colour_schemes\\main\\h2016_red_sick.png",
 			"type": "select",
 			"group": "Main",
@@ -108,7 +111,7 @@
 		},
 		{
 			"name": "2016 GOTY",
-			"tooltip": "Hitman (2016) colour scheme with a white and red health bar.",
+			"tooltip": "Hitman (2016) color scheme using 2016's white and red for the health bar.",
 			"image": "colour_schemes\\main\\h2016_goty.png",
 			"type": "select",
 			"group": "Main",
@@ -116,8 +119,8 @@
 			"contentFolders": ["colour_schemes\\main\\h2016_goty"]
 		},
 		{
-			"name": "2016 GOTY and Sick",
-			"tooltip": "Hitman (2016) colour scheme with a white and red health bar. Infected is a more sickly shade of yellow-green.",
+			"name": "2016 GOTYː Sick",
+			"tooltip": "Hitman (2016) color scheme using 2016's white and red for the health bar. Infected is a more sickly shade of yellow-green.",
 			"image": "colour_schemes\\main\\h2016_goty_sick.png",
 			"type": "select",
 			"group": "Main",
@@ -126,7 +129,7 @@
 		},
 		{
 			"name": "Blood Money",
-			"tooltip": "Hitman: Blood Money colour scheme using the original red for all three health conditions. The original yellow alert level is used for infected.",
+			"tooltip": "Hitman: Blood Money color scheme using HBM's red for all three health conditions. HBM's yellow alert level is used for infected.",
 			"image": "colour_schemes\\main\\blood_money_classic.png",
 			"type": "select",
 			"group": "Main",
@@ -134,8 +137,8 @@
 			"contentFolders": ["colour_schemes\\main\\blood_money_classic"]
 		},
 		{
-			"name": "Blood Money Sick",
-			"tooltip": "Hitman: Blood Money colour scheme using the original red for all three health conditions. Infected is a more sickly shade of yellow-green.",
+			"name": "Blood Moneyː Sick",
+			"tooltip": "Hitman: Blood Money color scheme using HBM's red for all three health conditions. Infected is a more sickly shade of yellow-green.",
 			"image": "colour_schemes\\main\\blood_money_classic_sick.png",
 			"type": "select",
 			"group": "Main",
@@ -144,7 +147,7 @@
 		},
 		{
 			"name": "Blood Money GYR",
-			"tooltip": "Hitman: Blood Money inpsired colour scheme using the original green, yellow, and red.",
+			"tooltip": "Hitman: Blood Money inpsired color scheme using HBM's green, yellow, and red.",
 			"image": "colour_schemes\\main\\blood_money_gyr.png",
 			"type": "select",
 			"group": "Main",
@@ -152,8 +155,8 @@
 			"contentFolders": ["colour_schemes\\main\\blood_money_gyr"]
 		},
 		{
-			"name": "Blood Money GYR and Sick",
-			"tooltip": "Hitman: Blood Money inpsired colour scheme using the original green, yellow, and red. Infected is a more sickly shade of yellow-green.",
+			"name": "Blood Money GYRː Sick",
+			"tooltip": "Hitman: Blood Money inpsired color scheme using HBM's green, yellow, and red. Infected is a more sickly shade of yellow-green.",
 			"image": "colour_schemes\\main\\blood_money_gyr_sick.png",
 			"type": "select",
 			"group": "Main",
@@ -162,7 +165,7 @@
 		},
 		{
 			"name": "Bloody Legacy",
-			"tooltip": "Bloody Legacy colour scheme with reds from Blood Money, Hitman (2016), and WOA.",
+			"tooltip": "Bloody Legacy color scheme using reds from Blood Money, Hitman (2016), and WOA.",
 			"image": "colour_schemes\\main\\bloody_legacy.png",
 			"type": "select",
 			"group": "Main",
@@ -171,7 +174,7 @@
 		},
 		{
 			"name": "Bloody Legacy Reversed",
-			"tooltip": "Bloody Legacy colour scheme with reds from Blood Money, Hitman (2016), and WOA in reversed order.",
+			"tooltip": "Bloody Legacy color scheme using reds from Blood Money, Hitman (2016), and WOA in reversed order.",
 			"image": "colour_schemes\\main\\bloody_legacy_reversed.png",
 			"type": "select",
 			"group": "Main",
@@ -180,7 +183,7 @@
 		},
 		{
 			"name": "Paladins",
-			"tooltip": "Paladins health bar colour scheme using Blue for full and medium, red-orange for low, and a slight off-yellow for infected.",
+			"tooltip": "Paladins health bar color scheme using Blue for full and medium, red-orange for low, and a slight off-yellow for infected.",
 			"image": "colour_schemes\\main\\paladins.png",
 			"type": "select",
 			"group": "Main",
@@ -189,7 +192,7 @@
 		},
 		{
 			"name": "Default",
-			"tooltip": "Default colour scheme.",
+			"tooltip": "Default color scheme using a grey background, black borders,and white text.",
 			"image": "colour_schemes\\secondary\\default_colours.png",
 			"type": "select",
 			"group": "Secondary",
@@ -198,7 +201,7 @@
 		},
 		{
 			"name": "Bright",
-			"tooltip": "Bright colour scheme.",
+			"tooltip": "Bright color scheme using an almost full white background.",
 			"image": "colour_schemes\\secondary\\bright.png",
 			"type": "select",
 			"group": "Secondary",
@@ -207,7 +210,7 @@
 		},
 		{
 			"name": "WOA Darker",
-			"tooltip": "Hitman WOA colour scheme to match the darker grey sections of the map.",
+			"tooltip": "World of Assassination color scheme to match the darker grey sections of the map.",
 			"image": "colour_schemes\\secondary\\hwoa_darker.png",
 			"type": "select",
 			"group": "Secondary",
@@ -216,7 +219,7 @@
 		},
 		{
 			"name": "WOA Dark",
-			"tooltip": "Hitman WOA colour scheme to match the dark grey sections of the map.",
+			"tooltip": "World of Assassination color scheme to match the dark grey sections of the map.",
 			"image": "colour_schemes\\secondary\\hwoa_dark.png",
 			"type": "select",
 			"group": "Secondary",
@@ -225,7 +228,7 @@
 		},
 		{
 			"name": "WOA Medium",
-			"tooltip": "Hitman WOA colour scheme to match the medium grey sections of the map.",
+			"tooltip": "World of Assassination color scheme to match the medium grey sections of the map.",
 			"image": "colour_schemes\\secondary\\hwoa_medium.png",
 			"type": "select",
 			"group": "Secondary",
@@ -234,7 +237,7 @@
 		},
 		{
 			"name": "WOA Light",
-			"tooltip": "Hitman WOA colour scheme to match the light grey sections of the map.",
+			"tooltip": "World of Assassination color scheme to match the light grey sections of the map.",
 			"image": "colour_schemes\\secondary\\hwoa_lighter.png",
 			"type": "select",
 			"group": "Secondary",
@@ -243,7 +246,7 @@
 		},
 		{
 			"name": "WOA Lighter",
-			"tooltip": "Hitman WOA colour scheme to match the lighter grey sections of the map.",
+			"tooltip": "World of Assassination color scheme to match the lighter grey sections of the map.",
 			"image": "colour_schemes\\secondary\\hwoa_lighter.png",
 			"type": "select",
 			"group": "Secondary",
@@ -252,7 +255,7 @@
 		},
 		{
 			"name": "WOA Lightest",
-			"tooltip": "Hitman WOA colour scheme to match the lightest grey sections of the map.",
+			"tooltip": "World of Assassination color scheme to match the lightest grey sections of the map.",
 			"image": "colour_schemes\\secondary\\hwoa_lightest.png",
 			"type": "select",
 			"group": "Secondary",
@@ -261,7 +264,7 @@
 		},
 		{
 			"name": "WOA White",
-			"tooltip": "Hitman WOA colour scheme with a white background.",
+			"tooltip": "World of Assassination color scheme with a white background.",
 			"image": "colour_schemes\\secondary\\hwoa_white.png",
 			"type": "select",
 			"group": "Secondary",
@@ -270,7 +273,7 @@
 		},
 		{
 			"name": "2016 Black",
-			"tooltip": "Hitman (2016) colour scheme with a black background.",
+			"tooltip": "Hitman (2016) color scheme with a black background.",
 			"image": "colour_schemes\\secondary\\h2016_black.png",
 			"type": "select",
 			"group": "Secondary",
@@ -279,7 +282,7 @@
 		},
 		{
 			"name": "2016 Darker",
-			"tooltip": "Hitman (2016) colour scheme with a darker grey background.",
+			"tooltip": "Hitman (2016) color scheme with a darker grey background.",
 			"image": "colour_schemes\\secondary\\h2016_darker.png",
 			"type": "select",
 			"group": "Secondary",
@@ -288,7 +291,7 @@
 		},
 		{
 			"name": "2016 Dark",
-			"tooltip": "Hitman (2016) colour scheme with a dark grey background.",
+			"tooltip": "Hitman (2016) color scheme with a dark grey background.",
 			"image": "colour_schemes\\secondary\\h2016_dark.png",
 			"type": "select",
 			"group": "Secondary",
@@ -297,7 +300,7 @@
 		},
 		{
 			"name": "2016 Medium",
-			"tooltip": "Hitman (2016) colour scheme with a medium grey background.",
+			"tooltip": "Hitman (2016) color scheme with a medium grey background.",
 			"image": "colour_schemes\\secondary\\h2016_medium.png",
 			"type": "select",
 			"group": "Secondary",
@@ -306,7 +309,7 @@
 		},
 		{
 			"name": "2016 Light",
-			"tooltip": "Hitman (2016) colour scheme with a light grey background.",
+			"tooltip": "Hitman (2016) color scheme with a light grey background.",
 			"image": "colour_schemes\\secondary\\h2016_light.png",
 			"type": "select",
 			"group": "Secondary",
@@ -315,7 +318,7 @@
 		},
 		{
 			"name": "2016 Lighter",
-			"tooltip": "Hitman (2016) colour scheme with a lighter grey background.",
+			"tooltip": "Hitman (2016) color scheme with a lighter grey background.",
 			"image": "colour_schemes\\secondary\\h2016_lighter.png",
 			"type": "select",
 			"group": "Secondary",
@@ -324,7 +327,7 @@
 		},
 		{
 			"name": "2016 White",
-			"tooltip": "Hitman (2016) colour scheme with a solid white background.",
+			"tooltip": "Hitman (2016) color scheme with a solid white background.",
 			"image": "colour_schemes\\secondary\\h2016_white.png",
 			"type": "select",
 			"group": "Secondary",
@@ -333,7 +336,7 @@
 		},
 		{
 			"name": "Blood Money",
-			"tooltip": "Blood Money colour scheme with the classic red for the health text, a white text background, and a grey health bar background.",
+			"tooltip": "Blood Money color scheme with the classic red for the health text, a white text background, and a grey health bar background.",
 			"image": "colour_schemes\\secondary\\blood_money_classic.png",
 			"type": "select",
 			"group": "Secondary",
@@ -342,7 +345,7 @@
 		},
 		{
 			"name": "Blood Money Black",
-			"tooltip": "Blood Money colour scheme with a darker red for the health text, a black text background, and a black health bar background.",
+			"tooltip": "Blood Money color scheme with a darker red for the health text, a black text background, and a black health bar background.",
 			"image": "colour_schemes\\secondary\\blood_money_black.png",
 			"type": "select",
 			"group": "Secondary",
@@ -351,7 +354,7 @@
 		},
 		{
 			"name": "Blood Money Darker",
-			"tooltip": "Blood Money colour scheme with a darker red for the health text, a dark grey text background, and a dark grey health bar background.",
+			"tooltip": "Blood Money color scheme with a darker red for the health text, a dark grey text background, and a dark grey health bar background.",
 			"image": "colour_schemes\\secondary\\blood_money_darker.png",
 			"type": "select",
 			"group": "Secondary",
@@ -360,7 +363,7 @@
 		},
 		{
 			"name": "Blood Money Dark",
-			"tooltip": "Blood Money colour scheme with a darker red for the health text, a white text background, and a dark grey health bar background.",
+			"tooltip": "Blood Money color scheme with a darker red for the health text, a white text background, and a dark grey health bar background.",
 			"image": "colour_schemes\\secondary\\blood_money_dark.png",
 			"type": "select",
 			"group": "Secondary",
@@ -369,7 +372,7 @@
 		},
 		{
 			"name": "Blood Money Light",
-			"tooltip": "Blood Money colour scheme with the classic red for the health text, a white text background, and a light grey health bar background.",
+			"tooltip": "Blood Money color scheme with the classic red for the health text, a white text background, and a light grey health bar background.",
 			"image": "colour_schemes\\secondary\\blood_money_light.png",
 			"type": "select",
 			"group": "Secondary",
@@ -378,7 +381,7 @@
 		},
 		{
 			"name": "Blood Money White",
-			"tooltip": "Blood Money colour scheme with the classic red for the health text, a white text background, and a white health bar background.",
+			"tooltip": "Blood Money color scheme with the classic red for the health text, a white text background, and a white health bar background.",
 			"image": "colour_schemes\\secondary\\blood_money_white.png",
 			"type": "select",
 			"group": "Secondary",
@@ -386,8 +389,8 @@
 			"contentFolders": ["colour_schemes\\secondary\\blood_money_white"]
 		},
 		{
-			"name": "Bloody Legacy and White Text",
-			"tooltip": "Bloody Legacy colour scheme with reds from Blood Money, Hitman (2016), and WOA with white text.",
+			"name": "Bloody Legacy & White Text",
+			"tooltip": "Bloody Legacy color scheme with reds from Blood Money, Hitman (2016), and WOA with white text.",
 			"image": "colour_schemes\\secondary\\bloody_legacy_white.png",
 			"type": "select",
 			"group": "Secondary",
@@ -395,8 +398,8 @@
 			"contentFolders": ["colour_schemes\\secondary\\bloody_legacy_white"]
 		},
 		{
-			"name": "Bloody Legacy and Black Text",
-			"tooltip": "Bloody Legacy colour scheme with reds from Blood Money, Hitman (2016), and WOA with black text.",
+			"name": "Bloody Legacy & Black Text",
+			"tooltip": "Bloody Legacy color scheme with reds from Blood Money, Hitman (2016), and WOA with black text.",
 			"image": "colour_schemes\\secondary\\bloody_legacy_black.png",
 			"type": "select",
 			"group": "Secondary",
@@ -404,8 +407,8 @@
 			"contentFolders": ["colour_schemes\\secondary\\bloody_legacy_black"]
 		},
 		{
-			"name": "Bloody Legacy Reversed and White Text",
-			"tooltip": "Bloody Legacy Reversed colour scheme with reds from Blood Money, Hitman (2016), and WOA with white text.",
+			"name": "Bloody Legacy Reversed & White Text",
+			"tooltip": "Bloody Legacy Reversed color scheme with reds from Blood Money, Hitman (2016), and WOA with white text.",
 			"image": "colour_schemes\\secondary\\bloody_legacy_reversed_white.png",
 			"type": "select",
 			"group": "Secondary",
@@ -413,8 +416,8 @@
 			"contentFolders": ["colour_schemes\\secondary\\bloody_legacy_reversed_white"]
 		},
 		{
-			"name": "Bloody Legacy Reversed and Black Text",
-			"tooltip": "Bloody Legacy Reversed colour scheme with reds from Blood Money, Hitman (2016), and WOA with black text.",
+			"name": "Bloody Legacy Reversed & Black Text",
+			"tooltip": "Bloody Legacy Reversed color scheme with reds from Blood Money, Hitman (2016), and WOA with black text.",
 			"image": "colour_schemes\\secondary\\bloody_legacy_reversed_black.png",
 			"type": "select",
 			"group": "Secondary",
@@ -423,7 +426,7 @@
 		},
 		{
 			"name": "Black",
-			"tooltip": "Black colour scheme.",
+			"tooltip": "Black color scheme.",
 			"image": "colour_schemes\\secondary\\black.png",
 			"type": "select",
 			"group": "Secondary",
@@ -432,7 +435,7 @@
 		},
 		{
 			"name": "Slightly Darker Black",
-			"tooltip": "Slightly Darker Black colour scheme.",
+			"tooltip": "Slightly Darker Black color scheme.",
 			"image": "colour_schemes\\secondary\\black_slightly_darker.png",
 			"type": "select",
 			"group": "Secondary",
@@ -441,7 +444,7 @@
 		},
 		{
 			"name": "RGBY",
-			"tooltip": "RGB Why? colour scheme using H:WOA's own red, green, blue, and yellow.",
+			"tooltip": "RGB Why? color scheme using HWOA's red, green, blue, and yellow.",
 			"image": "colour_schemes\\secondary\\rgb_y.png",
 			"type": "select",
 			"group": "Secondary",
