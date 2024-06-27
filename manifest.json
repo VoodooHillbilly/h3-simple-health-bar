@@ -4,10 +4,7 @@
 	"id": "Notex.SimpleHealthBar",
 	"name": "Simple Health Bar",
 	"description": "Adds a simple health bar to the left of the minimap.",
-	"authors": [
-		"Notex",
-		"Voodoo Hillbilly"
-		],
+	"authors": ["Notex", "Voodoo Hillbilly"],
 	"contentFolders": ["content"],
 	"options": [
 		{
@@ -396,6 +393,6 @@
 			"contentFolders": ["colour_schemes\\secondary\\black_slightly_darker"]
 		}
 	],
-	"frameworkVersion": "2.33.12",
-	"updateCheck": "https://github.com/Notexe/h3-simple-health-bar/releases/latest/download/updates.json"
+	"frameworkVersion": "2.33.14",
+	"updateCheck": "https://github.com/VoodooHillbilly/h3-simple-health-bar/releases/latest/download/updates.json"
 }
