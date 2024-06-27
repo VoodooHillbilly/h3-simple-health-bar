@@ -1,6 +1,6 @@
 # Simple Health Bar
 
-Adds a simple health bar to the left of the minimap. Modified slightly from the original.
+Adds a simple health bar to the left of the minimap.
 
 [Install](https://hitman-resources.netlify.app/smf-install-link/https://github.com/VoodooHillbilly/h3-simple-health-bar/releases/latest/download/mod.framework.zip) | [Download](https://github.com/VoodooHillbilly/h3-simple-health-bar/releases/latest/download/mod.framework.zip)
 
