@@ -393,6 +393,6 @@
 			"contentFolders": ["colour_schemes\\secondary\\black_slightly_darker"]
 		}
 	],
-	"frameworkVersion": "2.33.14",
+	"frameworkVersion": "2.33.19",
 	"updateCheck": "https://github.com/VoodooHillbilly/h3-simple-health-bar/releases/latest/download/updates.json"
 }
