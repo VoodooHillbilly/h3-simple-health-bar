@@ -1,0 +1,108 @@
+{
+	"tempHash": "00250CEFFB630F13",
+	"tbluHash": "004FEBFEEA1D4177",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"f473766d771c90c2",
+				{
+					"AddEventConnection": [
+						"OnTrue",
+						"SetInfected",
+						{
+							"ref": {
+								"ref": "cafef77f80f5f691",
+								"externalScene": "[assembly:/_pro/scenes/bricks/gameessentialsbase.brick].pc_entitytype"
+							},
+							"value": { "type": "bool", "value": true }
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f473766d771c90c2",
+				{
+					"AddEventConnection": [
+						"OnFalse",
+						"SetInfected",
+						{
+							"ref": {
+								"ref": "cafef77f80f5f691",
+								"externalScene": "[assembly:/_pro/scenes/bricks/gameessentialsbase.brick].pc_entitytype"
+							},
+							"value": { "type": "bool", "value": false }
+						}
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe4c4cd4552447",
+				{
+					"parent": "2109cd4e9c4a40a6",
+					"name": "GameEventListener",
+					"factory": "[modules:/zgameeventlistenerentity.class].pc_entitytype",
+					"blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
+					"properties": {
+						"m_eEvent": {
+							"type": "EGameEventType",
+							"value": "GET_SavegameRestored"
+						}
+					},
+					"events": { "EventOccurred": { "Poll": [] } }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafecbbe1fcc7526",
+				{
+					"parent": "cafe4c4cd4552447",
+					"name": "Poll 47 Poisoned",
+					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_rValueEntity": {
+							"type": "SEntityTemplateReference",
+							"value": "f473766d771c90c2"
+						}
+					},
+					"events": {
+						"PollTrue": {
+							"SetInfected": [
+								{
+									"ref": {
+										"ref": "cafef77f80f5f691",
+										"externalScene": "[assembly:/_pro/scenes/bricks/gameessentialsbase.brick].pc_entitytype"
+									},
+									"value": {
+										"type": "bool",
+										"value": true
+									}
+								}
+							]
+						},
+						"PollFalse": {
+							"SetInfected": [
+								{
+									"ref": {
+										"ref": "cafef77f80f5f691",
+										"externalScene": "[assembly:/_pro/scenes/bricks/gameessentialsbase.brick].pc_entitytype"
+									},
+									"value": {
+										"type": "bool",
+										"value": false
+									}
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
