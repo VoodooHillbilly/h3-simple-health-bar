@@ -103,11 +103,14 @@ public class HealthBar extends BaseControl {
 
 	public function SetInfected(isInfected:Boolean):void {
 		m_isInfected = isInfected;
+		trace("[SimpleHealthBar] Infected: " + m_isInfected)
 
 		if (isInfected) {
+			trace("[SimpleHealthBar] gotoAndPlay 2")
 			m_healthBarView.HealthBarInner.gotoAndPlay(2);
 		} else {
-			m_healthBarView.HealthBarInner.gotoAndPlay(1);
+			trace("[SimpleHealthBar] gotoAndStop 1")
+			m_healthBarView.HealthBarInner.gotoAndStop(1);
 		}
 
 		UpdateHealthBarColour();

@@ -6,8 +6,19 @@
 		{
 			"label": "Compile release and export using G2GFxDataTool",
 			"type": "shell",
-			"command": "D:\\Tools\\G2GFxDataTool\\G2GFxDataTool.exe -i bin\\HealthBar.swf -o ..\\content\\chunk0\\scaleform\\",
+			"command": "wine /home/josh/Modding/Tools/G2GFxDataTool/G2GFxDataTool.exe -i ./bin/HealthBar.swf -o ../content/chunk0/scaleform/",
 			"dependsOn": ["ActionScript: compile release - asconfig.json"],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+{
+			"label": "Compile debug and export using G2GFxDataTool",
+			"type": "shell",
+			"command": "wine /home/josh/Modding/Tools/G2GFxDataTool/G2GFxDataTool.exe -i ./bin/HealthBar.swf -o ../content/chunk0/scaleform/ -v",
+			"dependsOn": ["ActionScript: compile debug - asconfig.json"],
 			"problemMatcher": [],
 			"group": {
 				"kind": "build",
