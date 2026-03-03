@@ -1,0 +1,78 @@
+{
+	"tempHash": "00DC692646C00776",
+	"tbluHash": "00C0F37BA20637F7",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"950a86e877bce5e0",
+				{
+					"AddEventConnection": ["OnTrue", "SetTrue", "cafe3f19a7d14b06"]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"950a86e877bce5e0",
+				{
+					"AddEventConnection": ["OnFalse", "SetFalse", "cafe3f19a7d14b06"]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe3f19a7d14b06",
+				{
+					"parent": "950a86e877bce5e0",
+					"name": "VB_47 is infected",
+					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_bValue": { "type": "bool", "value": false },
+						"m_bFireOnLevelStart": {
+							"type": "bool",
+							"value": true
+						},
+						"m_bAlwaysSignalOnSet": {
+							"type": "bool",
+							"value": true
+						}
+					},
+					"events": {
+						"OnTrue": {
+							"SetInfected": [
+								{
+									"ref": {
+										"ref": "cafef77f80f5f691",
+										"externalScene": "[assembly:/_pro/scenes/bricks/gameessentialsbase.brick].pc_entitytype"
+									},
+									"value": {
+										"type": "bool",
+										"value": true
+									}
+								}
+							]
+						},
+						"OnFalse": {
+							"SetInfected": [
+								{
+									"ref": {
+										"ref": "cafef77f80f5f691",
+										"externalScene": "[assembly:/_pro/scenes/bricks/gameessentialsbase.brick].pc_entitytype"
+									},
+									"value": {
+										"type": "bool",
+										"value": false
+									}
+								}
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddExternalScene": "[assembly:/_pro/scenes/bricks/gameessentialsbase.brick].pc_entitytype"
+		}
+	],
+	"patchVersion": 6
+}
