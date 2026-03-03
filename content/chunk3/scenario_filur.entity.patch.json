@@ -6,11 +6,7 @@
 			"SubEntityOperation": [
 				"950a86e877bce5e0",
 				{
-					"AddEventConnection": [
-						"OnTrue",
-						"SetTrue",
-						"cafe3f19a7d14b06"
-					]
+					"AddEventConnection": ["OnTrue", "SetTrue", "cafe3f19a7d14b06"]
 				}
 			]
 		},
@@ -18,11 +14,7 @@
 			"SubEntityOperation": [
 				"950a86e877bce5e0",
 				{
-					"AddEventConnection": [
-						"OnFalse",
-						"SetFalse",
-						"cafe3f19a7d14b06"
-					]
+					"AddEventConnection": ["OnFalse", "SetFalse", "cafe3f19a7d14b06"]
 				}
 			]
 		},

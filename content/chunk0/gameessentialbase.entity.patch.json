@@ -6,11 +6,7 @@
 			"SubEntityOperation": [
 				"8e16e03dab8d2cef",
 				{
-					"AddEventConnection": [
-						"EventReceived",
-						"SetVisible",
-						"cafe0141885e38a0"
-					]
+					"AddEventConnection": ["EventReceived", "SetVisible", "cafe0141885e38a0"]
 				}
 			]
 		},
@@ -22,10 +18,7 @@
 						"m_aChildren",
 						[
 							{
-								"AddItemAfter": [
-									"0c74ae87029bd724",
-									"cafef77f80f5f691"
-								]
+								"AddItemAfter": ["0c74ae87029bd724", "cafef77f80f5f691"]
 							}
 						]
 					]
@@ -36,11 +29,7 @@
 			"SubEntityOperation": [
 				"d63ac16cd1c66f50",
 				{
-					"AddEventConnection": [
-						"Out02",
-						"Hide",
-						"cafef4e298a79304"
-					]
+					"AddEventConnection": ["Out02", "Hide", "cafef4e298a79304"]
 				}
 			]
 		},
@@ -48,11 +37,7 @@
 			"SubEntityOperation": [
 				"ecdfd17726bd53ca",
 				{
-					"AddEventConnection": [
-						"OnFalse",
-						"Hide",
-						"cafe0141885e38a0"
-					]
+					"AddEventConnection": ["OnFalse", "Hide", "cafe0141885e38a0"]
 				}
 			]
 		},
@@ -60,11 +45,7 @@
 			"SubEntityOperation": [
 				"ecdfd17726bd53ca",
 				{
-					"AddEventConnection": [
-						"OnTrue",
-						"Show",
-						"cafe0141885e38a0"
-					]
+					"AddEventConnection": ["OnTrue", "Show", "cafe0141885e38a0"]
 				}
 			]
 		},
@@ -72,11 +53,7 @@
 			"SubEntityOperation": [
 				"43f4c2bb1b13db7b",
 				{
-					"AddEventConnection": [
-						"Out02",
-						"Show",
-						"cafef4e298a79304"
-					]
+					"AddEventConnection": ["Out02", "Show", "cafef4e298a79304"]
 				}
 			]
 		},
@@ -84,11 +61,7 @@
 			"SubEntityOperation": [
 				"34f439ac06f0f3ec",
 				{
-					"AddEventConnection": [
-						"OnFalse",
-						"Hide",
-						"cafe353bf2365fa9"
-					]
+					"AddEventConnection": ["OnFalse", "Hide", "cafe353bf2365fa9"]
 				}
 			]
 		},
@@ -96,11 +69,7 @@
 			"SubEntityOperation": [
 				"34f439ac06f0f3ec",
 				{
-					"AddEventConnection": [
-						"OnTrue",
-						"Show",
-						"cafe353bf2365fa9"
-					]
+					"AddEventConnection": ["OnTrue", "Show", "cafe353bf2365fa9"]
 				}
 			]
 		},
@@ -108,11 +77,7 @@
 			"SubEntityOperation": [
 				"69be349a738c7ea9",
 				{
-					"AddEventConnection": [
-						"EventReceived",
-						"SetVisible",
-						"cafe353bf2365fa9"
-					]
+					"AddEventConnection": ["EventReceived", "SetVisible", "cafe353bf2365fa9"]
 				}
 			]
 		},
@@ -200,10 +165,7 @@
 					},
 					"events": {
 						"RequestData": {
-							"GetData": [
-								"cafea8f9b3707ba1",
-								"cafe6e40d206cd7a"
-							]
+							"GetData": ["cafea8f9b3707ba1", "cafe6e40d206cd7a"]
 						}
 					}
 				}
@@ -396,10 +358,7 @@
 					},
 					"events": {
 						"EventOccurred": {
-							"GetData": [
-								"cafea8f9b3707ba1",
-								"cafe6e40d206cd7a"
-							]
+							"GetData": ["cafea8f9b3707ba1", "cafe6e40d206cd7a"]
 						}
 					}
 				}

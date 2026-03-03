@@ -14,7 +14,7 @@
 				"isDefault": true
 			}
 		},
-{
+		{
 			"label": "Compile debug and export using G2GFxDataTool",
 			"type": "shell",
 			"command": "wine /home/josh/Modding/Tools/G2GFxDataTool/G2GFxDataTool.exe -i ./bin/HealthBar.swf -o ../content/chunk0/scaleform/ -v",
