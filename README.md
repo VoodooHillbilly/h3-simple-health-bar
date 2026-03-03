@@ -4,4 +4,5 @@ Adds a simple health bar to the left of the minimap. Modified slightly from the 
 
 [Download](https://github.com/VoodooHillbilly/h3-simple-health-bar/releases/latest/download/mod.framework.zip)
 
-`Notex.SimpleHealthBar` v1.10.0, by Notex, Voodoo Hillbilly.
+Forked from `Notex.SimpleHealthBar` by Notex.
+Themes by Voodoo Hillbilly.

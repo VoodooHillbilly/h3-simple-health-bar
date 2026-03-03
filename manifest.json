@@ -1,11 +1,12 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
 	"version": "1.9.0",
-	"id": "Notex.SimpleHealthBar",
+	"id": "VoodooHillbilly.SimpleHealthBar",
 	"name": "Simple Health Bar",
 	"description": "Adds a simple health bar to the left of the minimap.",
 	"authors": ["Notex", "Voodoo Hillbilly"],
 	"contentFolders": ["content"],
+	"incompatibilities": ["Notex.SimpleHealthBar"],
 	"options": [
 		{
 			"name": "Disable grey health postfilter effect",
@@ -17,382 +18,382 @@
 		{
 			"name": "WOA",
 			"tooltip": "World of Assassination color scheme using HWOA's green, yellow, and red.",
-			"image": "colour_schemes\\main\\hwoa_default.png",
+			"image": "color_schemes/main/hwoa_default.png",
 			"type": "select",
 			"group": "Main",
 			"enabledByDefault": true,
-			"contentFolders": ["colour_schemes\\main\\hwoa_default"]
+			"contentFolders": ["color_schemes/main/hwoa_default"]
 		},
 		{
 			"name": "WOAː Sick",
 			"tooltip": "World of Assassination color scheme using the HWOA's green, yellow, and red for the health bar. Infected is a more sickly shade of yellow-green.",
-			"image": "colour_schemes\\main\\hwoa_sick.png",
+			"image": "color_schemes/main/hwoa_sick.png",
 			"type": "select",
 			"group": "Main",
 			"enabledByDefault": false,
-			"contentFolders": ["colour_schemes\\main\\hwoa_sick"]
+			"contentFolders": ["color_schemes/main/hwoa_sick"]
 		},
 		{
 			"name": "WOA Dark",
 			"tooltip": "World of Assassination color scheme using a darker green and red to coordinate with Heritage UI.",
-			"image": "colour_schemes\\main\\hwoa_dark.png",
+			"image": "color_schemes/main/hwoa_dark.png",
 			"type": "select",
 			"group": "Main",
 			"enabledByDefault": false,
-			"contentFolders": ["colour_schemes\\main\\hwoa_dark"]
+			"contentFolders": ["color_schemes/main/hwoa_dark"]
 		},
 		{
 			"name": "WOA Darkː Sick",
 			"tooltip": "World of Assassination color scheme using a darker green and red to coordinate with Heritage UI. Infected is a more sickly shade of yellow-green.",
-			"image": "colour_schemes\\main\\hwoa_dark_sick.png",
+			"image": "color_schemes/main/hwoa_dark_sick.png",
 			"type": "select",
 			"group": "Main",
 			"enabledByDefault": false,
-			"contentFolders": ["colour_schemes\\main\\hwoa_dark_sick"]
+			"contentFolders": ["color_schemes/main/hwoa_dark_sick"]
 		},
 		{
 			"name": "2016",
 			"tooltip": "Hitman (2016) color scheme using 2016's green, yellow, and red.",
-			"image": "colour_schemes\\main\\h2016_default.png",
+			"image": "color_schemes/main/h2016_default.png",
 			"type": "select",
 			"group": "Main",
 			"enabledByDefault": false,
-			"contentFolders": ["colour_schemes\\main\\h2016_default"]
+			"contentFolders": ["color_schemes/main/h2016_default"]
 		},
 		{
 			"name": "2016ː Sick",
 			"tooltip": "Hitman (2016) color scheme using 2016's green, yellow, and red for the health bar. Infected is a more sickly shade of yellow-green.",
-			"image": "colour_schemes\\main\\h2016_sick.png",
+			"image": "color_schemes/main/h2016_sick.png",
 			"type": "select",
 			"group": "Main",
 			"enabledByDefault": false,
-			"contentFolders": ["colour_schemes\\main\\h2016_sick"]
+			"contentFolders": ["color_schemes/main/h2016_sick"]
 		},
 		{
 			"name": "2016 Red",
 			"tooltip": "Hitman (2016) color scheme using 2016's red for all three health conditions.",
-			"image": "colour_schemes\\main\\h2016_red.png",
+			"image": "color_schemes/main/h2016_red.png",
 			"type": "select",
 			"group": "Main",
 			"enabledByDefault": false,
-			"contentFolders": ["colour_schemes\\main\\h2016_red"]
+			"contentFolders": ["color_schemes/main/h2016_red"]
 		},
 		{
 			"name": "2016 Redː Sick",
 			"tooltip": "Hitman (2016) color scheme using 2016's red for all three health conditions. Infected is a more sickly shade of yellow-green.",
-			"image": "colour_schemes\\main\\h2016_red_sick.png",
+			"image": "color_schemes/main/h2016_red_sick.png",
 			"type": "select",
 			"group": "Main",
 			"enabledByDefault": false,
-			"contentFolders": ["colour_schemes\\main\\h2016_red_sick"]
+			"contentFolders": ["color_schemes/main/h2016_red_sick"]
 		},
 		{
 			"name": "2016 GOTY",
 			"tooltip": "Hitman (2016) color scheme using 2016's white and red for the health bar.",
-			"image": "colour_schemes\\main\\h2016_goty.png",
+			"image": "color_schemes/main/h2016_goty.png",
 			"type": "select",
 			"group": "Main",
 			"enabledByDefault": false,
-			"contentFolders": ["colour_schemes\\main\\h2016_goty"]
+			"contentFolders": ["color_schemes/main/h2016_goty"]
 		},
 		{
 			"name": "2016 GOTYː Sick",
 			"tooltip": "Hitman (2016) color scheme using 2016's white and red for the health bar. Infected is a more sickly shade of yellow-green.",
-			"image": "colour_schemes\\main\\h2016_goty_sick.png",
+			"image": "color_schemes/main/h2016_goty_sick.png",
 			"type": "select",
 			"group": "Main",
 			"enabledByDefault": false,
-			"contentFolders": ["colour_schemes\\main\\h2016_goty_sick"]
+			"contentFolders": ["color_schemes/main/h2016_goty_sick"]
 		},
 		{
 			"name": "Blood Money",
 			"tooltip": "Hitman: Blood Money color scheme using HBM's red for all three health conditions. HBM's yellow alert level is used for infected.",
-			"image": "colour_schemes\\main\\blood_money_classic.png",
+			"image": "color_schemes/main/blood_money_classic.png",
 			"type": "select",
 			"group": "Main",
 			"enabledByDefault": false,
-			"contentFolders": ["colour_schemes\\main\\blood_money_classic"]
+			"contentFolders": ["color_schemes/main/blood_money_classic"]
 		},
 		{
 			"name": "Blood Moneyː Sick",
 			"tooltip": "Hitman: Blood Money color scheme using HBM's red for all three health conditions. Infected is a more sickly shade of yellow-green.",
-			"image": "colour_schemes\\main\\blood_money_classic_sick.png",
+			"image": "color_schemes/main/blood_money_classic_sick.png",
 			"type": "select",
 			"group": "Main",
 			"enabledByDefault": false,
-			"contentFolders": ["colour_schemes\\main\\blood_money_classic_sick"]
+			"contentFolders": ["color_schemes/main/blood_money_classic_sick"]
 		},
 		{
 			"name": "Blood Money GYR",
 			"tooltip": "Hitman: Blood Money inpsired color scheme using HBM's green, yellow, and red.",
-			"image": "colour_schemes\\main\\blood_money_gyr.png",
+			"image": "color_schemes/main/blood_money_gyr.png",
 			"type": "select",
 			"group": "Main",
 			"enabledByDefault": false,
-			"contentFolders": ["colour_schemes\\main\\blood_money_gyr"]
+			"contentFolders": ["color_schemes/main/blood_money_gyr"]
 		},
 		{
 			"name": "Blood Money GYRː Sick",
 			"tooltip": "Hitman: Blood Money inpsired color scheme using HBM's green, yellow, and red. Infected is a more sickly shade of yellow-green.",
-			"image": "colour_schemes\\main\\blood_money_gyr_sick.png",
+			"image": "color_schemes/main/blood_money_gyr_sick.png",
 			"type": "select",
 			"group": "Main",
 			"enabledByDefault": false,
-			"contentFolders": ["colour_schemes\\main\\blood_money_gyr_sick"]
+			"contentFolders": ["color_schemes/main/blood_money_gyr_sick"]
 		},
 		{
 			"name": "Bloody Legacy",
 			"tooltip": "Bloody Legacy color scheme using reds from Blood Money, Hitman (2016), and WOA.",
-			"image": "colour_schemes\\main\\bloody_legacy.png",
+			"image": "color_schemes/main/bloody_legacy.png",
 			"type": "select",
 			"group": "Main",
 			"enabledByDefault": false,
-			"contentFolders": ["colour_schemes\\main\\bloody_legacy"]
+			"contentFolders": ["color_schemes/main/bloody_legacy"]
 		},
 		{
 			"name": "Bloody Legacy Reversed",
 			"tooltip": "Bloody Legacy color scheme using reds from Blood Money, Hitman (2016), and WOA in reversed order.",
-			"image": "colour_schemes\\main\\bloody_legacy_reversed.png",
+			"image": "color_schemes/main/bloody_legacy_reversed.png",
 			"type": "select",
 			"group": "Main",
 			"enabledByDefault": false,
-			"contentFolders": ["colour_schemes\\main\\bloody_legacy_reversed"]
+			"contentFolders": ["color_schemes/main/bloody_legacy_reversed"]
 		},
 		{
 			"name": "WOA Darker",
 			"tooltip": "World of Assassination color scheme to match the darker grey sections of the map.",
-			"image": "colour_schemes\\secondary\\hwoa_darker.png",
+			"image": "color_schemes/secondary/hwoa_darker.png",
 			"type": "select",
 			"group": "Secondary",
 			"enabledByDefault": true,
-			"contentFolders": ["colour_schemes\\secondary\\hwoa_darker"]
+			"contentFolders": ["color_schemes/secondary/hwoa_darker"]
 		},
 		{
 			"name": "WOA Dark",
 			"tooltip": "World of Assassination color scheme to match the dark grey sections of the map.",
-			"image": "colour_schemes\\secondary\\hwoa_dark.png",
+			"image": "color_schemes/secondary/hwoa_dark.png",
 			"type": "select",
 			"group": "Secondary",
 			"enabledByDefault": false,
-			"contentFolders": ["colour_schemes\\secondary\\hwoa_dark"]
+			"contentFolders": ["color_schemes/secondary/hwoa_dark"]
 		},
 		{
 			"name": "WOA Medium",
 			"tooltip": "World of Assassination color scheme to match the medium grey sections of the map.",
-			"image": "colour_schemes\\secondary\\hwoa_medium.png",
+			"image": "color_schemes/secondary/hwoa_medium.png",
 			"type": "select",
 			"group": "Secondary",
 			"enabledByDefault": false,
-			"contentFolders": ["colour_schemes\\secondary\\hwoa_medium"]
+			"contentFolders": ["color_schemes/secondary/hwoa_medium"]
 		},
 		{
 			"name": "WOA Light",
 			"tooltip": "World of Assassination color scheme to match the light grey sections of the map.",
-			"image": "colour_schemes\\secondary\\hwoa_lighter.png",
+			"image": "color_schemes/secondary/hwoa_lighter.png",
 			"type": "select",
 			"group": "Secondary",
 			"enabledByDefault": false,
-			"contentFolders": ["colour_schemes\\secondary\\hwoa_light"]
+			"contentFolders": ["color_schemes/secondary/hwoa_light"]
 		},
 		{
 			"name": "WOA Lighter",
 			"tooltip": "World of Assassination color scheme to match the lighter grey sections of the map.",
-			"image": "colour_schemes\\secondary\\hwoa_lighter.png",
+			"image": "color_schemes/secondary/hwoa_lighter.png",
 			"type": "select",
 			"group": "Secondary",
 			"enabledByDefault": false,
-			"contentFolders": ["colour_schemes\\secondary\\hwoa_lighter"]
+			"contentFolders": ["color_schemes/secondary/hwoa_lighter"]
 		},
 		{
 			"name": "WOA Lightest",
 			"tooltip": "World of Assassination color scheme to match the lightest grey sections of the map.",
-			"image": "colour_schemes\\secondary\\hwoa_lightest.png",
+			"image": "color_schemes/secondary/hwoa_lightest.png",
 			"type": "select",
 			"group": "Secondary",
 			"enabledByDefault": false,
-			"contentFolders": ["colour_schemes\\secondary\\hwoa_lightest"]
+			"contentFolders": ["color_schemes/secondary/hwoa_lightest"]
 		},
 		{
 			"name": "WOA White",
 			"tooltip": "World of Assassination color scheme with a white background.",
-			"image": "colour_schemes\\secondary\\hwoa_white.png",
+			"image": "color_schemes/secondary/hwoa_white.png",
 			"type": "select",
 			"group": "Secondary",
 			"enabledByDefault": false,
-			"contentFolders": ["colour_schemes\\secondary\\hwoa_white"]
+			"contentFolders": ["color_schemes/secondary/hwoa_white"]
 		},
 		{
 			"name": "2016 Black",
 			"tooltip": "Hitman (2016) color scheme with a black background.",
-			"image": "colour_schemes\\secondary\\h2016_black.png",
+			"image": "color_schemes/secondary/h2016_black.png",
 			"type": "select",
 			"group": "Secondary",
 			"enabledByDefault": false,
-			"contentFolders": ["colour_schemes\\secondary\\h2016_black"]
+			"contentFolders": ["color_schemes/secondary/h2016_black"]
 		},
 		{
 			"name": "2016 Darker",
 			"tooltip": "Hitman (2016) color scheme with a darker grey background.",
-			"image": "colour_schemes\\secondary\\h2016_darker.png",
+			"image": "color_schemes/secondary/h2016_darker.png",
 			"type": "select",
 			"group": "Secondary",
 			"enabledByDefault": false,
-			"contentFolders": ["colour_schemes\\secondary\\h2016_darker"]
+			"contentFolders": ["color_schemes/secondary/h2016_darker"]
 		},
 		{
 			"name": "2016 Dark",
 			"tooltip": "Hitman (2016) color scheme with a dark grey background.",
-			"image": "colour_schemes\\secondary\\h2016_dark.png",
+			"image": "color_schemes/secondary/h2016_dark.png",
 			"type": "select",
 			"group": "Secondary",
 			"enabledByDefault": false,
-			"contentFolders": ["colour_schemes\\secondary\\h2016_dark"]
+			"contentFolders": ["color_schemes/secondary/h2016_dark"]
 		},
 		{
 			"name": "2016 Medium",
 			"tooltip": "Hitman (2016) color scheme with a medium grey background.",
-			"image": "colour_schemes\\secondary\\h2016_medium.png",
+			"image": "color_schemes/secondary/h2016_medium.png",
 			"type": "select",
 			"group": "Secondary",
 			"enabledByDefault": false,
-			"contentFolders": ["colour_schemes\\secondary\\h2016_medium"]
+			"contentFolders": ["color_schemes/secondary/h2016_medium"]
 		},
 		{
 			"name": "2016 Light",
 			"tooltip": "Hitman (2016) color scheme with a light grey background.",
-			"image": "colour_schemes\\secondary\\h2016_light.png",
+			"image": "color_schemes/secondary/h2016_light.png",
 			"type": "select",
 			"group": "Secondary",
 			"enabledByDefault": false,
-			"contentFolders": ["colour_schemes\\secondary\\h2016_light"]
+			"contentFolders": ["color_schemes/secondary/h2016_light"]
 		},
 		{
 			"name": "2016 Lighter",
 			"tooltip": "Hitman (2016) color scheme with a lighter grey background.",
-			"image": "colour_schemes\\secondary\\h2016_lighter.png",
+			"image": "color_schemes/secondary/h2016_lighter.png",
 			"type": "select",
 			"group": "Secondary",
 			"enabledByDefault": false,
-			"contentFolders": ["colour_schemes\\secondary\\h2016_lighter"]
+			"contentFolders": ["color_schemes/secondary/h2016_lighter"]
 		},
 		{
 			"name": "2016 White",
 			"tooltip": "Hitman (2016) color scheme with a solid white background.",
-			"image": "colour_schemes\\secondary\\h2016_white.png",
+			"image": "color_schemes/secondary/h2016_white.png",
 			"type": "select",
 			"group": "Secondary",
 			"enabledByDefault": false,
-			"contentFolders": ["colour_schemes\\secondary\\h2016_white"]
+			"contentFolders": ["color_schemes/secondary/h2016_white"]
 		},
 		{
 			"name": "Blood Money",
 			"tooltip": "Blood Money color scheme with the classic red for the health text, a white text background, and a grey health bar background.",
-			"image": "colour_schemes\\secondary\\blood_money_classic.png",
+			"image": "color_schemes/secondary/blood_money_classic.png",
 			"type": "select",
 			"group": "Secondary",
 			"enabledByDefault": false,
-			"contentFolders": ["colour_schemes\\secondary\\blood_money_classic"]
+			"contentFolders": ["color_schemes/secondary/blood_money_classic"]
 		},
 		{
 			"name": "Blood Money Black",
 			"tooltip": "Blood Money color scheme with a darker red for the health text, a black text background, and a black health bar background.",
-			"image": "colour_schemes\\secondary\\blood_money_black.png",
+			"image": "color_schemes/secondary/blood_money_black.png",
 			"type": "select",
 			"group": "Secondary",
 			"enabledByDefault": false,
-			"contentFolders": ["colour_schemes\\secondary\\blood_money_black"]
+			"contentFolders": ["color_schemes/secondary/blood_money_black"]
 		},
 		{
 			"name": "Blood Money Darker",
 			"tooltip": "Blood Money color scheme with a darker red for the health text, a dark grey text background, and a dark grey health bar background.",
-			"image": "colour_schemes\\secondary\\blood_money_darker.png",
+			"image": "color_schemes/secondary/blood_money_darker.png",
 			"type": "select",
 			"group": "Secondary",
 			"enabledByDefault": false,
-			"contentFolders": ["colour_schemes\\secondary\\blood_money_darker"]
+			"contentFolders": ["color_schemes/secondary/blood_money_darker"]
 		},
 		{
 			"name": "Blood Money Dark",
 			"tooltip": "Blood Money color scheme with a darker red for the health text, a white text background, and a dark grey health bar background.",
-			"image": "colour_schemes\\secondary\\blood_money_dark.png",
+			"image": "color_schemes/secondary/blood_money_dark.png",
 			"type": "select",
 			"group": "Secondary",
 			"enabledByDefault": false,
-			"contentFolders": ["colour_schemes\\secondary\\blood_money_dark"]
+			"contentFolders": ["color_schemes/secondary/blood_money_dark"]
 		},
 		{
 			"name": "Blood Money Light",
 			"tooltip": "Blood Money color scheme with the classic red for the health text, a white text background, and a light grey health bar background.",
-			"image": "colour_schemes\\secondary\\blood_money_light.png",
+			"image": "color_schemes/secondary/blood_money_light.png",
 			"type": "select",
 			"group": "Secondary",
 			"enabledByDefault": false,
-			"contentFolders": ["colour_schemes\\secondary\\blood_money_light"]
+			"contentFolders": ["color_schemes/secondary/blood_money_light"]
 		},
 		{
 			"name": "Blood Money White",
 			"tooltip": "Blood Money color scheme with the classic red for the health text, a white text background, and a white health bar background.",
-			"image": "colour_schemes\\secondary\\blood_money_white.png",
+			"image": "color_schemes/secondary/blood_money_white.png",
 			"type": "select",
 			"group": "Secondary",
 			"enabledByDefault": false,
-			"contentFolders": ["colour_schemes\\secondary\\blood_money_white"]
+			"contentFolders": ["color_schemes/secondary/blood_money_white"]
 		},
 		{
 			"name": "Bloody Legacy & White Text",
 			"tooltip": "Bloody Legacy color scheme with reds from Blood Money, Hitman (2016), and WOA with white text.",
-			"image": "colour_schemes\\secondary\\bloody_legacy_white.png",
+			"image": "color_schemes/secondary/bloody_legacy_white.png",
 			"type": "select",
 			"group": "Secondary",
 			"enabledByDefault": false,
-			"contentFolders": ["colour_schemes\\secondary\\bloody_legacy_white"]
+			"contentFolders": ["color_schemes/secondary/bloody_legacy_white"]
 		},
 		{
 			"name": "Bloody Legacy & Black Text",
 			"tooltip": "Bloody Legacy color scheme with reds from Blood Money, Hitman (2016), and WOA with black text.",
-			"image": "colour_schemes\\secondary\\bloody_legacy_black.png",
+			"image": "color_schemes/secondary/bloody_legacy_black.png",
 			"type": "select",
 			"group": "Secondary",
 			"enabledByDefault": false,
-			"contentFolders": ["colour_schemes\\secondary\\bloody_legacy_black"]
+			"contentFolders": ["color_schemes/secondary/bloody_legacy_black"]
 		},
 		{
 			"name": "Bloody Legacy Reversed & White Text",
 			"tooltip": "Bloody Legacy Reversed color scheme with reds from Blood Money, Hitman (2016), and WOA with white text.",
-			"image": "colour_schemes\\secondary\\bloody_legacy_reversed_white.png",
+			"image": "color_schemes/secondary/bloody_legacy_reversed_white.png",
 			"type": "select",
 			"group": "Secondary",
 			"enabledByDefault": false,
-			"contentFolders": ["colour_schemes\\secondary\\bloody_legacy_reversed_white"]
+			"contentFolders": ["color_schemes/secondary/bloody_legacy_reversed_white"]
 		},
 		{
 			"name": "Bloody Legacy Reversed & Black Text",
 			"tooltip": "Bloody Legacy Reversed color scheme with reds from Blood Money, Hitman (2016), and WOA with black text.",
-			"image": "colour_schemes\\secondary\\bloody_legacy_reversed_black.png",
+			"image": "color_schemes/secondary/bloody_legacy_reversed_black.png",
 			"type": "select",
 			"group": "Secondary",
 			"enabledByDefault": false,
-			"contentFolders": ["colour_schemes\\secondary\\bloody_legacy_reversed_black"]
+			"contentFolders": ["color_schemes/secondary/bloody_legacy_reversed_black"]
 		},
 		{
 			"name": "Black",
 			"tooltip": "Black color scheme.",
-			"image": "colour_schemes\\secondary\\black.png",
+			"image": "color_schemes/secondary/black.png",
 			"type": "select",
 			"group": "Secondary",
 			"enabledByDefault": false,
-			"contentFolders": ["colour_schemes\\secondary\\black"]
+			"contentFolders": ["color_schemes/secondary/black"]
 		},
 		{
 			"name": "Slightly Darker Black",
 			"tooltip": "Slightly Darker Black color scheme.",
-			"image": "colour_schemes\\secondary\\black_slightly_darker.png",
+			"image": "color_schemes/secondary/black_slightly_darker.png",
 			"type": "select",
 			"group": "Secondary",
 			"enabledByDefault": false,
-			"contentFolders": ["colour_schemes\\secondary\\black_slightly_darker"]
+			"contentFolders": ["color_schemes/secondary/black_slightly_darker"]
 		}
 	],
-	"frameworkVersion": "2.33.26",
+	"frameworkVersion": "2.33.35",
 	"updateCheck": "https://github.com/VoodooHillbilly/h3-simple-health-bar/releases/latest/download/updates.json"
 }
